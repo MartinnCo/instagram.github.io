@@ -1,0 +1,260 @@
+body{
+    margin:0;
+}
+
+.instagram-page{
+
+    height: 100vh;
+    gap: 5px;
+}
+
+.head-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid hsla(0, 0%, 0%, 0.302);
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.symbol{
+    margin-right: 15px;
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+
+#news{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    overflow-x: scroll;
+  white-space: nowrap;
+    overscroll-behavior-inline: contain ;
+    scroll-behavior: smooth;
+}
+
+
+#news::-webkit-scrollbar {
+    display: none;
+}
+
+
+.wrapper p{
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 15px;
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.circle:first-child{
+    margin-left: 15px;
+}
+
+.circle{
+    display: flex;
+
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px ;
+    justify-content: center;
+    align-items: center;
+
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.circle img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.circle-small{
+    max-width: 28%;
+    height: 25%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 0;
+    
+}
+
+
+
+.circle-small img{
+    padding: 10px;
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.post{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.post-head{
+
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    max-height: 20px;
+}
+
+.post-circle{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+
+.post-circle img{
+    max-width: 6%;
+
+    max-height: 300px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    }
+
+.account{
+    max-height: 3px;
+}
+
+.post-info{
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+
+
+
+.post-pic-vid img{
+    height: auto;
+    width: 100vw;
+    object-fit: contain;
+}
+
+
+.post-icon{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 15px;;
+}
+
+.three-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 0;
+}
+
+.three-icon-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    margin: 0;
+
+}
+
+.special{
+    margin-left: auto;
+    margin-right: 5px;;
+}
+
+.likes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.likes-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    max-height: 10px;
+}
+
+.likes-row p{
+    max-height: 10px;
+}
+
+.bold{
+    font-weight: bold;
+    top: 0;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.post p{
+    max-height: 10px;
+}
+
+nav{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.butt{
+    display: flex;
+    padding-left: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+}
+
+
+.nav-but{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.butt li{
+    list-style-type: none;
+}
+
+.material-symbols-outlined {
+    font-size: 100000px;  /* Preferred icon size */}
+
+
